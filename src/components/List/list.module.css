@@ -1,0 +1,21 @@
+.list {
+  padding: 20px;
+}
+
+.paragraph {
+  margin: 5px 0;
+  padding: 20px;
+  background-color: rgba(200, 0, 0, 0.1);
+}
+
+.paragraph.complete {
+  background-color: rgba(0, 200, 0, 0.1);
+}
+
+.sentence {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto;
+  grid-auto-columns: max-content;
+  grid-column-gap: 10px;  
+}
